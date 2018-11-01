@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yousucc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <com.yousucc.ui.widget.TopNavigationBar
+        android:id="@+id/topNavigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        yousucc:centerText="@string/app_name" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@null"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" />
+
+        <com.yousucc.ui.widget.indexlist.QuickIndexBar
+            android:id="@+id/quickIndexBar"
+            android:layout_width="20dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:clickable="true"
+            yousucc:textColor="@color/main_black"
+            yousucc:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/floating_header"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_box_black"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textSize="70sp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

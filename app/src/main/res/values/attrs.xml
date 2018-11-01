@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TopNavigationBar">
+        <attr name="leftText" format="reference|string" />
+        <attr name="leftVisible" format="boolean" />
+        <attr name="leftBackground" format="reference" />
+
+        <attr name="centerText" format="reference|string" />
+        <attr name="centerVisible" format="boolean" />
+        <attr name="centerBackground" format="reference" />
+
+        <attr name="rightText" format="reference|string" />
+        <attr name="rightVisible" format="boolean" />
+        <attr name="rightBackground" format="reference" />
+    </declare-styleable>
+    <!--&lt;!&ndash; 圆形图片 &ndash;&gt;-->
+    <!--<declare-styleable name="roundedimageview">-->
+    <!--<attr name="thickness" format="dimension" />-->
+    <!--<attr name="inside_color" format="color" />-->
+    <!--<attr name="outside_color" format="color" />-->
+    <!--<attr name="round" format="dimension" />-->
+    <!--</declare-styleable>-->
+    <!-- 字母导航条 -->
+    <declare-styleable name="QuickIndexBar">
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+    </declare-styleable>
+    <!--emoji表情控件-->
+    <declare-styleable name="Emojicon">
+        <attr name="emojiconSize" format="dimension" />
+        <attr name="emojiconAlignment" format="enum">
+            <enum name="bottom" value="0" />
+            <enum name="baseline" value="1" />
+        </attr>
+        <attr name="emojiconTextStart" format="integer" />
+        <attr name="emojiconTextLength" format="integer" />
+        <attr name="emojiconUseSystemDefault" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp">
+
+        <ImageView
+            android:id="@+id/imageIV"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="6dp" />
+
+        <com.yousucc.ui.widget.YouSuccTextView
+            android:id="@+id/unreadTV"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="-14dp"
+            android:layout_toRightOf="@+id/imageIV"
+            android:background="@drawable/shape_oval_ubread"
+            android:gravity="center"
+            android:maxLength="2"
+            android:paddingTop="2dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:visibility="gone" />
+
+        <com.yousucc.ui.widget.YouSuccTextView
+            android:id="@+id/nameTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageIV"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="2dp"
+            android:layout_toRightOf="@+id/imageIV"
+            android:singleLine="true"
+            android:textColor="@color/main_black"
+            android:textSize="18sp" />
+
+        <com.yousucc.ui.widget.YouSuccTextView
+            android:id="@+id/infoTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageIV"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/imageIV"
+            android:maxLength="15"
+            android:singleLine="true"
+            android:textColor="@color/text_hint"
+            android:textSize="14sp" />
+
+        <com.yousucc.ui.widget.YouSuccTextView
+            android:id="@+id/timeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageIV"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:singleLine="true"
+            android:textColor="@color/text_hint"
+            android:textSize="14sp" />
+
+        <com.yousucc.ui.widget.YouSuccTextView
+            android:id="@+id/distanceTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/timeTV"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="4dp"
+            android:singleLine="true"
+            android:textColor="@color/main_red"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/line_color" />
+
+</LinearLayout>

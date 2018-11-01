@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <com.emojicon.EmojiconTextView
+        android:id="@+id/emojiconTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/main_black"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/backIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:gravity="center"
+        android:src="@drawable/emoji_back"
+        android:visibility="gone" />
+</LinearLayout>

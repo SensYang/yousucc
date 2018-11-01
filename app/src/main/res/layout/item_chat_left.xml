@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yousucc="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/leftItemRL"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="100dp">
+
+    <ImageView
+        android:id="@+id/leftHeadRIV"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <com.yousucc.ui.widget.YouSuccTextView
+        android:id="@+id/leftNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/leftHeadRIV"
+        android:singleLine="true"
+        android:textColor="@color/main_black"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/leftContentRL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/leftNameTV"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/leftHeadRIV"
+        android:minHeight="40dp">
+
+        <ImageView
+            android:id="@+id/leftImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxHeight="135dp"
+            android:minHeight="45dp"
+            android:visibility="gone" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignBottom="@id/leftImageView"
+            android:layout_alignLeft="@id/leftImageView"
+            android:layout_alignRight="@id/leftImageView"
+            android:layout_alignTop="@id/leftImageView"
+            android:background="@drawable/chat_item_leftshadow" />
+
+        <FrameLayout
+            android:id="@+id/leftVideoFrame"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignBottom="@id/leftImageView"
+            android:layout_alignLeft="@id/leftImageView"
+            android:layout_alignRight="@id/leftImageView"
+            android:layout_alignTop="@id/leftImageView"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/leftVideoTagIV"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:src="@drawable/chat_item_videoplay" />
+
+            <com.yousucc.ui.widget.YouSuccTextView
+                android:id="@+id/leftVideoTimeTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:textColor="@color/white"
+                android:textSize="8sp" />
+        </FrameLayout>
+
+
+        <com.emojicon.EmojiconTextView
+            android:id="@+id/leftTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chat_item_leftframe"
+            android:minHeight="40dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="17dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp"
+            android:textColor="@color/main_black"
+            android:visibility="gone"
+            yousucc:emojiconSize="25sp" />
+
+        <Button
+            android:id="@+id/leftTakeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chat_item_leftget"
+            android:gravity="center"
+            android:text="@string/coupon_take"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/leftSendcouponBackIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/chat_item_sendcoupon_left"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/leftSendcouponInfoLL"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignBottom="@id/leftSendcouponBackIV"
+            android:layout_alignLeft="@id/leftSendcouponBackIV"
+            android:layout_alignRight="@id/leftSendcouponBackIV"
+            android:layout_alignTop="@id/leftSendcouponBackIV"
+            android:layout_marginLeft="7dp"
+            android:orientation="vertical"
+            android:weightSum="82">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="60"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/leftBusinessIV"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:adjustViewBounds="true" />
+
+                <com.yousucc.ui.widget.YouSuccTextView
+                    android:id="@+id/leftBusinessTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <com.yousucc.ui.widget.YouSuccTextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="22"
+                android:gravity="center_vertical|right"
+                android:text="@string/coupon"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

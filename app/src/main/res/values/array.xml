@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="peopleChatMoreImageResources">
+        <item>@drawable/chat_board_icon_picture</item>
+        <item>@drawable/chat_board_icon_smallvideo</item>
+        <item>@drawable/chat_board_icon_redbox</item>
+        <item>@drawable/chat_board_icon_moneybox</item>
+
+        <item>@drawable/chat_board_icon_idcard</item>
+        <item>@drawable/chat_board_icon_video</item>
+        <item>@drawable/chat_board_icon_voice</item>
+        <item>@drawable/chat_board_icon_collect</item>
+
+        <item>@drawable/chat_board_icon_coupon</item>
+        <item>@drawable/chat_board_icon_location</item>
+        <item>@drawable/chat_board_icon_redboxcity</item>
+        <item>@drawable/chat_board_icon_readburn</item>
+    </array>
+
+    <string-array name="peopleChatMoreTextResources">
+        <item>@string/chat_board_text_picture</item>
+        <item>@string/chat_board_text_smallvideo</item>
+        <item>@string/chat_board_text_redbox</item>
+        <item>@string/chat_board_text_moneybox</item>
+
+        <item>@string/chat_board_text_idcard</item>
+        <item>@string/chat_board_text_video</item>
+        <item>@string/chat_board_text_voice</item>
+        <item>@string/chat_board_text_collect</item>
+
+        <item>@string/chat_board_text_coupon</item>
+        <item>@string/chat_board_text_location</item>
+        <item>@string/chat_board_text_redboxcity</item>
+        <item>@string/chat_board_text_readburn</item>
+    </string-array>
+
+
+</resources>

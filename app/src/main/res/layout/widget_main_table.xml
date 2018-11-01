@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/maintable_height"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="5dp">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/line_color" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/tableZero"
+            android:layout_width="0dp"
+            android:layout_height="0dp">
+
+            <ImageView
+                android:id="@+id/tableZeroDown"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:id="@+id/tableZeroUp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/tableOne"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/tableOneDown"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:alpha="0"
+                android:src="@drawable/one_table" />
+
+            <ImageView
+                android:id="@+id/tableOneUp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/one_tabled" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/tableTwo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/tableTwoDown"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/two_table" />
+
+            <ImageView
+                android:id="@+id/tableTwoUp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:alpha="0"
+                android:src="@drawable/two_tabled" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/tableThree"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/tableThreeDown"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/three_table" />
+
+            <ImageView
+                android:id="@+id/tableThreeUp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:alpha="0"
+                android:src="@drawable/three_tabled" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/tableFour"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/tableFourDown"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:src="@drawable/four_table" />
+
+            <ImageView
+                android:id="@+id/tableFourUp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:alpha="0"
+                android:src="@drawable/four_tabled" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

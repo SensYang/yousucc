@@ -1,0 +1,81 @@
+<resources>
+    <string name="temp_phone">15738334046</string>
+    <string name="app_name">超级商</string>
+    <string name="input_phone_hint">请输入您的手机号</string>
+    <string name="input_passworld_hint">请输入您的密码</string>
+    <string name="login_btn">登陆</string>
+    <string name="register_btn">立即注册</string>
+    <string name="register">注册</string>
+    <string name="find_pass">找回密码?</string>
+    <string name="welcome_yousucc">欢迎使用超级商</string>
+    <string name="pleaseinputrightcode">请输入正确的验证码</string>
+    <string name="pleaseinputrightphone">请输入正确的手机号</string>
+    <string name="pleaseinputrightpass">请输入正确的密码</string>
+    <string name="getcode">发送验证码</string>
+    <string name="register_agreement">注册协议</string>
+    <string name="account_login">已有账号登陆</string>
+
+    <string name="media_ejected">储存卡已拔出，语音功能将暂时不可用</string>
+    <!--通讯录-->
+    <string name="contacts_addfriend">添加新朋友</string>
+    <string name="contacts_group">群组</string>
+    <string name="contacts_super">超级商</string>
+    <string name="contacts_add">特别关注</string>
+    <!--通讯录end-->
+
+    <!--发现-->
+    <string name="find">发现</string>
+    <string name="find_news">发布</string>
+    <string name="find_friendcircle">好友圈</string>
+    <string name="find_cupid">丘比特</string>
+    <string name="find_meet">偶遇</string>
+    <string name="find_stone">缘分石</string>
+    <string name="find_heartcalling">心情电话</string>
+    <string name="find_near">附近的人</string>
+    <string name="find_nearshop">周边服务</string>
+    <string name="find_shoping">超级团购</string>
+    <!--发现end-->
+    <!--我的-->
+    <string name="me_table_00">收藏</string>
+    <string name="me_table_01">正能量</string>
+    <string name="me_table_02">储钱罐</string>
+    <string name="me_table_10">卡券</string>
+    <string name="me_table_11">个性装扮</string>
+    <string name="me_table_12">设置</string>
+    <string name="me_table_20">超级商申请</string>
+    <string name="me_table_21">帮助和反馈</string>
+    <string name="me_table_22">文件</string>
+    <!--我的end-->
+    <!--聊天的更多按钮-->
+    <string name="chat_board_text_picture">图片</string>
+    <string name="chat_board_text_smallvideo">小视频</string>
+    <string name="chat_board_text_redbox">红包</string>
+    <string name="chat_board_text_moneybox">摇钱罐</string>
+
+    <string name="chat_board_text_idcard">名片</string>
+    <string name="chat_board_text_video">视频聊天</string>
+    <string name="chat_board_text_voice">语音聊天</string>
+    <string name="chat_board_text_collect">收藏</string>
+
+    <string name="chat_board_text_coupon">优惠券</string>
+    <string name="chat_board_text_location">位置</string>
+    <string name="chat_board_text_redboxcity">红包城</string>
+    <string name="chat_board_text_readburn">阅后即焚</string>
+    <!--聊天的更多按钮end-->
+    <!--聊天窗口-->
+    <string name="coupon_take">获取成功</string>
+    <string name="coupon">优惠券</string>
+
+    <!--图片选择-->
+    <string name="folder_all">所有照片</string>
+    <string name="preview">预览</string>
+    <string name="msg_no_camera">没有系统相机</string>
+    <string name="msg_amount_limit">已经达到最高选择数量</string>
+    <string name="action_done">完成</string>
+    <string name="photo_unit">张</string>
+    <string name="tip_take_photo">拍摄照片</string>
+    <!--图片选择end-->
+    <!--位置选择-->
+    <string name="map_title">位置</string>
+    <string name="map_send">发送</string>
+</resources>

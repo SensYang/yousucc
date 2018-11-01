@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#EFEFEF</color>
+    <color name="black">#000</color>
+    <color name="text_hint">#909090</color>
+    <color name="white">#FFFFFF</color>
+    <color name="login_btn">#33000000</color>
+    <color name="black_edit_line">#82808d</color>
+    <color name="hine_color">#D4D4D4</color>
+    <color name="title_color">#323232</color>
+    <color name="transparent">#0000</color>
+    <color name="line_color">#D6D7DC</color>
+    <color name="main_black">#323232</color>
+    <color name="main_red">#F91E01</color>
+    <color name="main_blue">#307CE5</color>
+    <color name="space_color">#E0E0E0</color>
+    <color name="indexlist_color">#55000000</color>
+    <color name="chat_box">#D5D6DB</color>
+    <color name="face_broad_select">#999999</color>
+</resources>

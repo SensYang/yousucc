@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_launcher" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:id="@+id/phoneIV"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/phoneET"
+            android:layout_marginBottom="5dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/yousucc_phone" />
+
+        <com.yousucc.ui.widget.YouSuccEditText
+            android:id="@+id/phoneET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/phoneIV"
+            android:hint="@string/input_phone_hint"
+            android:paddingRight="50dp"
+            android:text="@string/temp_phone"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/clearPhone"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/phoneET"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/yousucc_clear" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/codeIV"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/codeET"
+            android:layout_marginBottom="5dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/yousucc_code" />
+
+        <com.yousucc.ui.widget.YouSuccEditText
+            android:id="@+id/codeET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/codeIV"
+            android:hint="验证码"
+            android:inputType="textPassword"
+            android:paddingRight="50dp"
+            android:textColor="@color/black" />
+
+        <com.yousucc.ui.widget.YouSuccTextView
+            android:id="@+id/getCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/codeET"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/yousucc_clear"
+            android:text="@string/getcode"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/passIV"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/passET"
+            android:layout_marginBottom="5dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/yousucc_passworld" />
+
+        <com.yousucc.ui.widget.YouSuccEditText
+            android:id="@+id/passET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/passIV"
+            android:hint="@string/input_passworld_hint"
+            android:inputType="textPassword"
+            android:paddingRight="50dp"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/lookPass"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/passET"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/yousucc_look" />
+    </RelativeLayout>
+
+    <com.yousucc.ui.widget.YouSuccButton
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/shape_btn_black"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="@string/login_btn"
+        android:textColor="@color/white"
+        android:textSize="26sp" />
+
+    <com.yousucc.ui.widget.YouSuccEditText
+        android:id="@+id/accountLoginTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom"
+        android:text="@string/account_login"
+        android:textColor="@color/main_red"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
